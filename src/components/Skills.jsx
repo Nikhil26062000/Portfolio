@@ -15,7 +15,7 @@ const Skills = () => {
 //   };
   return (
     <div className="w-[90%] mx-auto shadow-xl rounded-lg bg-slate-100 lg:w-[40%] mt-20 mb-4">
-        <h1 className="logo font-bold text-center text-2xl pt-4 text-black">SKILLS</h1>
+        <h1 className="logo font-bold text-center text-2xl pt-4 text-black hover:text-violet-600">SKILLS</h1>
         <div className="w-[140px] h-[2px] bg-black mx-auto rounded-lg "></div>
       {/* <div className="mb-4 mt-8 ml-14 sm:">
         <Slider {...settings}>
