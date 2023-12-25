@@ -4,10 +4,14 @@ import { ReactComponent as AvatarLogo } from '../Images/Av.svg';
 const Avatar = () => {
   return (
     <div className="w-[90%] mx-auto mt-[110px] md:w-[80%]">
-      <h1 className="logo font-extrabold text-2xl text-center text-[#0a0a0a] sm:text-3xl md:text-4xl lg:text-5xl ">
+
+
+
+
+      <h1 className="logo font-extrabold text-2xl text-center sm:text-3xl md:text-4xl lg:text-5xl ">
         Building the web, pixel by pixel. 🖥️🚀
       </h1>
-      <p className=" logo text-sm text-center text-[#0a0a0a] mt-[24px] sm:text-xl sm:font-normal">
+      <p className=" logo text-sm text-center mt-[24px] sm:text-xl sm:font-normal">
         Coding dreams into websites.
       </p>
 
