@@ -7,7 +7,7 @@ const Avatar = () => {
       <h1 className="logo font-extrabold text-2xl text-center text-[#0a0a0a] sm:text-3xl md:text-4xl lg:text-5xl ">
         Building the web, pixel by pixel. 🖥️🚀
       </h1>
-      <p className=" logo text-lg text-center text-[#0a0a0a] mt-[24px] sm:text-xl sm:font-normal">
+      <p className=" logo text-sm text-center text-[#0a0a0a] mt-[24px] sm:text-xl sm:font-normal">
         Coding dreams into websites.
       </p>
 

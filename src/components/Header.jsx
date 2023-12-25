@@ -12,7 +12,7 @@ export const Header = () => {
 
       <div className="hidden  sm:flex justify-center mx-4">
 
-      <button className="logo w-[114px] text-[18px] py-4d h-[45px] rounded-lg bg-white border border-violet-800 text-violet-600 font-medium">Say hello</button>
+      <button className="logo w-[130px] bg-violet-600 text-[18px]  h-[45px] rounded-lg text-white border border-violet-800 font-medium">Say hello👋</button>
         
       </div>
 
