@@ -17,10 +17,12 @@ export const Header = () => {
       </div>
 
 
-
-      <div className="sm:hidden">
+<a href="https://drive.google.com/file/d/1sxjF-4hb_kJnG6v_Qreu3vs_JkEyP5Ii/view?usp=sharing">
+<div className="sm:hidden">
         <DownloadIcon />
       </div>
+</a>
+      
 
     </div>
   );
