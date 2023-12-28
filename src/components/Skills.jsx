@@ -14,7 +14,7 @@ const Skills = () => {
 //     slidesToScroll: 1,
 //   };
   return (
-    <div className="w-[90%] mx-auto shadow-xl rounded-lg bg-slate-100 lg:w-[40%] mt-20 mb-4">
+    <div className="w-[90%] mx-auto shadow-xl rounded-lg bg-slate-100 lg:w-[40%] mt-20 mb-4 ">
         <h1 className="logo font-bold text-center text-2xl pt-4 text-black hover:text-violet-600">SKILLS</h1>
         <div className="w-[140px] h-[2px] bg-black mx-auto rounded-lg "></div>
       {/* <div className="mb-4 mt-8 ml-14 sm:">
@@ -48,7 +48,7 @@ const Skills = () => {
         </Slider>
       </div> */}
 
-      <div className="mt-6 mx-2 flex justify-center gap-4 flex-wrap py-4">
+      <div className="mt-6 mx-2 pb-4 flex justify-center gap-2 flex-wrap">
       <SkillsButton val="HTML" />
           <SkillsButton val="CSS3" />
           <SkillsButton val="JAVASSCRIPT" />

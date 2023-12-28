@@ -3,7 +3,7 @@ import { ReactComponent as AvatarLogo } from '../Images/Av.svg';
 
 const Avatar = () => {
   return (
-    <div className="w-[90%] mx-auto mt-[110px] md:w-[80%]">
+    <div className="w-[90%] mx-auto mt-[110px] ">
 
 
 
