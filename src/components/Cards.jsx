@@ -8,7 +8,7 @@ import { Button, CardActionArea, CardActions } from "@mui/material";
 
 const Cards = ({ name, img, desc, link1 ,link2 }) => {
   return (
-    <div className="w-[350px] sm:w-[300px]">
+    <div className="w-[350px] sm:w-[300px] px-2 py-2 ">
       <Card>
         <CardActionArea>
           <CardMedia

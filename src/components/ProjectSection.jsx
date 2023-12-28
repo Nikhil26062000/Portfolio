@@ -33,7 +33,7 @@ const ProjectSection = () => {
         </div>
       </div>
 
-      <div className=" -mt-40 flex justify-center flex-wrap gap-5 lg:gap-16">
+      <div className=" -mt-36 flex justify-center flex-wrap gap-5 lg:gap-16">
         <Card
           img={FOOD}
           name="FOOD APP"
