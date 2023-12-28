@@ -1,6 +1,6 @@
 import React from "react";
 
-import ChatIcon from '@mui/icons-material/Chat';
+import DownloadIcon from '@mui/icons-material/Download';
 import Button from "./Button";
 import Logo from "./Logo";
 
@@ -19,7 +19,7 @@ export const Header = () => {
 
 
       <div className="sm:hidden">
-        <ChatIcon />
+        <DownloadIcon />
       </div>
 
     </div>
