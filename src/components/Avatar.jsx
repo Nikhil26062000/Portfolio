@@ -3,7 +3,7 @@ import { ReactComponent as AvatarLogo } from '../Images/Av.svg';
 
 const Avatar = () => {
   return (
-    <div className="w-[90%] mx-auto mt-[110px] ">
+    <div className="w-[90%] mx-auto mt-[10px] h-[85vh] flex flex-col justify-center ">
 
 
 
@@ -15,7 +15,7 @@ const Avatar = () => {
         Coding dreams into websites.
       </p>
 
-      <div className='mt-[56px] flex justify-center'>
+      <div className='flex justify-center'>
       <AvatarLogo alt="Avatar" />
       </div>
    

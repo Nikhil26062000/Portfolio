@@ -13,7 +13,7 @@ const ProjectSection = () => {
     <div>
       <div className="w-[100%] h-[450px] bg-violet-600">
         <div className="w-[90%] mx-auto ">
-          <h1 className="text-2xl pt-24 logo text-center lg:text-4xl text-white tracking-wider">
+          <h1 className="text-2xl pt-24 logo text-center lg:text-4xl text-white tracking-wider max-sm:text-xl">
             PROJECTS
           </h1>
           <div className="w-[220px] h-[2px] mb-6 mt-2 bg-white mx-auto rounded-lg"></div>
@@ -25,7 +25,7 @@ const ProjectSection = () => {
 
           <div className="flex justify-center mt-4">
             <a href="https://github.com/Nikhil26062000?tab=repositories">
-              <button className=" w-[150px] bg-transparent font-normal  text-[16px]  h-[45px] rounded-lg text-white border border-white  hover:bg-white hover:text-violet-600">
+              <button className=" w-[150px] bg-transparent font-normal  text-[16px]  h-[45px] rounded-lg text-white border border-white  hover:bg-white hover:text-violet-600 max-sm:text-sm">
                 Check Out
               </button>
             </a>
