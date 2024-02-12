@@ -5,7 +5,7 @@ import NETFLIX from "../Images//NETFLIX.png";
 import TODO from "../Images/TODO.png";
 import GUESS from "../Images//GUESS.png";
 import CHAR2 from "../Images//CHAR2.png";
-import LMS from "../Images//LMS.png";
+import INSTA from "../Images/insta.png";
 
 
 const ProjectSection = () => {
@@ -13,7 +13,7 @@ const ProjectSection = () => {
     <div>
       <div className="w-[100%] h-[450px] bg-violet-600">
         <div className="w-[90%] mx-auto ">
-          <h1 className="text-2xl pt-24 logo text-center lg:text-4xl text-white tracking-wider">
+          <h1 className="text-2xl pt-24 logo text-center lg:text-4xl text-white tracking-wider max-sm:text-xl">
             PROJECTS
           </h1>
           <div className="w-[220px] h-[2px] mb-6 mt-2 bg-white mx-auto rounded-lg"></div>
@@ -25,7 +25,7 @@ const ProjectSection = () => {
 
           <div className="flex justify-center mt-4">
             <a href="https://github.com/Nikhil26062000?tab=repositories">
-              <button className=" w-[150px] bg-transparent font-normal  text-[16px]  h-[45px] rounded-lg text-white border border-white  hover:bg-white hover:text-violet-600">
+              <button className=" w-[150px] bg-transparent font-normal  text-[16px]  h-[45px] rounded-lg text-white border border-white  hover:bg-white hover:text-violet-600 max-sm:text-sm">
                 Check Out
               </button>
             </a>
@@ -35,10 +35,18 @@ const ProjectSection = () => {
 
       <div className=" -mt-36 flex justify-center flex-wrap gap-5 lg:gap-16">
         <Card
+          img={INSTA}
+          name="Instagram Clone"
+          desc="Bringing the essence of Instagram to life with every line of code."
+          link1="https://drive.google.com/file/d/1UpomHs4WmEeqptsO22yALVgiBoGgk9O4/view?usp=sharing"
+          link2="https://github.com/Nikhil26062000/Social-Media-App-Instagram"
+        />
+
+        <Card
           img={FOOD}
           name="FOOD APP"
           desc="Food Delivery Application like Swiggy and Zomato..."
-          link1="https://nikhil26062000.github.io/FoodApp/"
+          link1="https://drive.google.com/file/d/1JsKmq4BIOGR4kAZ2u1M6-jkByfnp1UrK/view?usp=sharing"
           link2="https://github.com/Nikhil26062000/FoodApp"
         />
         <Card
@@ -69,13 +77,7 @@ const ProjectSection = () => {
           link1="https://nikhil26062000.github.io/GrammarlyCharCountetr/"
           link2="https://github.com/Nikhil26062000/GrammarlyCharCountetr"
         />
-        <Card
-          img={LMS}
-          name="LMS"
-          desc="Learning Management System using Vanilla js..."
-          link1="https://nikhil26062000.github.io/LMS-/"
-          link2="https://github.com/Nikhil26062000/LMS-"
-        />
+        
       </div>
     </div>
   );

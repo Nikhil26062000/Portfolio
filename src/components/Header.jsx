@@ -6,7 +6,7 @@ import Logo from "./Logo";
 
 export const Header = () => {
   return (
-    <div className=" w-[90%] mx-auto h-24 mt-4 flex justify-between items-center ">
+    <div className=" w-[90%] mx-auto h-[12vh] mt-4 flex justify-between items-center ">
     <Logo/>
       
 
@@ -19,7 +19,7 @@ export const Header = () => {
 
 
 <div className="sm:hidden">
-<a href="https://drive.google.com/file/d/1sxjF-4hb_kJnG6v_Qreu3vs_JkEyP5Ii/view?usp=sharing">
+<a href="https://drive.google.com/file/d/1n9gCta4iUrn_jWpu5hY7H--6GAITyMk6/view?usp=sharing">
         <DownloadIcon />
         </a>
       </div>

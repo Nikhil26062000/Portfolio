@@ -4,7 +4,7 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
-import { Button, CardActionArea, CardActions } from "@mui/material";
+import { CardActionArea, CardActions } from "@mui/material";
 
 const Cards = ({ name, img, desc, link1 ,link2 }) => {
   return (
@@ -31,7 +31,7 @@ const Cards = ({ name, img, desc, link1 ,link2 }) => {
             
             <a href={link1}>
             <button className="w-[90px] bg-violet-600 text-[12px]  h-[30px] rounded-sm text-white border border-violet-800 font-normal">
-              View Site 💻
+              View Demo 💻
             </button>
             </a>
            
