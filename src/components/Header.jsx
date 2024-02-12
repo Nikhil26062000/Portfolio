@@ -3,10 +3,12 @@ import React from "react";
 import DownloadIcon from '@mui/icons-material/Download';
 import Button from "./Button";
 import Logo from "./Logo";
+import Avatar from "./Avatar";
 
 export const Header = () => {
   return (
-    <div className=" w-[90%] mx-auto h-[12vh] mt-4 flex justify-between items-center ">
+    
+    <div className=" w-[90%] mx-auto mt-4 flex justify-between items-center ">
     <Logo/>
       
 
@@ -27,6 +29,9 @@ export const Header = () => {
       
 
     </div>
+
+    
+   
   );
 };
  

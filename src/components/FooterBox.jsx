@@ -13,7 +13,7 @@ const FooterBox = () => {
       </p>
       <div className="py-2">
       <a href="https://www.linkedin.com/in/nikhil-raj-50b62219b/">
-      <button className=" w-[200px] bg-transparent  text-[18px]  h-[45px] rounded-lg text-white border border-[#5be9b9] font-light hover:bg-[#5be9b9]">
+      <button className=" w-[200px] bg-transparent  text-[18px]  h-[45px] rounded-lg text-white border border-[#5be9b9] font-light hover:bg-[#5be9b9] max-sm:text-[14px] max-sm:w-[120px]">
           Let's do this <RecommendSharpIcon />
         </button>
       </a>
