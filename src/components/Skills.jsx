@@ -59,9 +59,10 @@ const Skills = () => {
           <SkillsButton val="GITHUB" />
           <SkillsButton val="C" />
           <SkillsButton val="JAVA" />
-          <SkillsButton val="OOPS" />
-          <SkillsButton val="MYSQL" />
-          <SkillsButton val="FIREBASE" />
+          <SkillsButton val="NODE.JS" />
+          <SkillsButton val="MONGODB" />
+          <SkillsButton val="EXPRESS.JS" />
+          <SkillsButton val="MONGOOSE" />
       </div>
     </div>
   );
