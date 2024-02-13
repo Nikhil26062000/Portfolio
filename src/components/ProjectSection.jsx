@@ -11,21 +11,21 @@ import INSTA from "../Images/insta.png";
 const ProjectSection = () => {
   return (
     <div>
-      <div className="w-[100%] h-[450px] bg-violet-600">
+      <div className="w-[100%] h-[450px] bg-violet-600 max-sm:h-[350px]">
         <div className="w-[90%] mx-auto ">
-          <h1 className="text-2xl pt-24 logo text-center lg:text-4xl text-white tracking-wider max-sm:text-xl">
+          <h1 className="text-2xl pt-24 logo text-center lg:text-4xl text-white tracking-wider max-sm:text-xl max-sm:pt-10">
             PROJECTS
           </h1>
           <div className="w-[220px] h-[2px] mb-6 mt-2 bg-white mx-auto rounded-lg"></div>
 
-          <p className="text-center text-sm text-white sm:text-lg mt-6 tracking-wider">
-            Here are some of my projects I made using latest Frontend Technology
-            . There are lot more in my github repository .
+          <p className="text-center text-sm text-white sm:text-lg mt-6 tracking-wider max-sm:text-xs">
+           
+          I've created various projects using cutting-edge frontend tech, showcased on my GitHub. Explore my repository for more. Experience the latest in web development and discover innovative applications waiting to be explored.
           </p>
 
           <div className="flex justify-center mt-4">
             <a href="https://github.com/Nikhil26062000?tab=repositories">
-              <button className=" w-[150px] bg-transparent font-normal  text-[16px]  h-[45px] rounded-lg text-white border border-white  hover:bg-white hover:text-violet-600 max-sm:text-sm">
+              <button className="px-3 py-2 bg-transparent font-normal  text-[16px]  rounded-lg text-white border border-white  hover:bg-white hover:text-violet-600 max-sm:text-sm">
                 Check Out
               </button>
             </a>
@@ -33,7 +33,7 @@ const ProjectSection = () => {
         </div>
       </div>
 
-      <div className=" -mt-36 flex justify-center flex-wrap gap-5 lg:gap-16">
+      <div className=" -mt-28 flex justify-center flex-wrap gap-5 lg:gap-16 max-sm:-mt-48 max-sm:scale-90 ">
         <Card
           img={INSTA}
           name="Instagram Clone"

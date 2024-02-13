@@ -18,7 +18,7 @@ const Cards = ({ name, img, desc, link1 ,link2 }) => {
             alt="green iguana"
           />
           <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography gutterBottom variant="h5" component="div" >
               {name}
             </Typography>
             <Typography variant="body2" color="text.secondary">
