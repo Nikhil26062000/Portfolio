@@ -9,11 +9,7 @@ const About = () => {
       <div className="w-[140px] h-[2px] bg-white mx-auto rounded-lg "></div>
 
       <div className="w-[90%] pb-5  mx-auto mt-4 pt-5 mb-4 tracking-wide text-white lg:tracking-widest lg:pb-0 max-sm:text-xs max-sm:tracking-wider max-sm:pt-3 max-sm:mt-0 max-sm:pb-1">
-        Enthusiastic computer science fresher proficient in React JS, Redux, and
-        Tailwind CSS. Adept at leveraging GitHub for collaborative development
-        and Git for version control. Skilled in problem-solving, with a strong
-        grasp of C and Java. Passionate about delivering innovative frontend
-        solutions that enhance user experiences.
+      Passionate MERN developer skilled in React JS, Redux, and Tailwind CSS. Proficient in GitHub and Git. Strong problem-solving abilities in C and Java. Dedicated to delivering innovative frontend solutions for enhanced user experiences. Eager to contribute to dynamic projects pushing the boundaries of web development.
       </div>
     </div>
   );
