@@ -20,7 +20,7 @@ const ProjectSection = () => {
 
           <p className="text-center text-sm text-white sm:text-lg mt-6 tracking-wider max-sm:text-xs">
            
-          I've created various projects using cutting-edge frontend tech, showcased on my GitHub. Explore my repository for more. Experience the latest in web development and discover innovative applications waiting to be explored.
+          I've created various projects using cutting-edge technology, showcased on my GitHub. Explore my repository for more. Experience the latest in web development and discover innovative applications waiting to be explored.
           </p>
 
           <div className="flex justify-center mt-4">
