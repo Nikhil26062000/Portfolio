@@ -24,7 +24,7 @@ const ProjectSection = () => {
           </p>
 
           <div className="flex justify-center mt-4">
-            <a href="https://github.com/Nikhil26062000?tab=repositories">
+            <a href="https://github.com/Nikhil26062000">
               <button className="px-3 py-2 bg-transparent font-normal  text-[16px]  rounded-lg text-white border border-white  hover:bg-white hover:text-violet-600 max-sm:text-sm">
                 Check Out
               </button>
