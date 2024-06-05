@@ -21,7 +21,7 @@ export const Header = () => {
 
 
 <div className="sm:hidden">
-<a href="https://drive.google.com/drive/folders/1ygjQ4-1ublPzxMLiZk6SreO5NLC61VZq?usp=sharing">
+<a href="https://drive.google.com/file/d/19U2g2TUcOgh8_qpjjc-jA2rj1GUs7xrk/view?usp=sharing">
         <DownloadIcon />
         </a>
       </div>
