@@ -51,18 +51,19 @@ const Skills = () => {
       <div className="mt-6 mx-2 pb-4 flex justify-center gap-2 flex-wrap">
       <SkillsButton val="HTML" />
           <SkillsButton val="CSS3" />
-          <SkillsButton val="JAVASSCRIPT" />
+          <SkillsButton val="JAVASCRIPT" />
+          <SkillsButton val="TYPESCRIPT" />
           <SkillsButton val="REACT" />
           <SkillsButton val="REDUX" />
           <SkillsButton val="TAILWIND" />
-          <SkillsButton val="GIT" />
+          
           <SkillsButton val="GITHUB" />
           <SkillsButton val="C" />
           <SkillsButton val="JAVA" />
           <SkillsButton val="NODE.JS" />
-          <SkillsButton val="MONGODB" />
+          
           <SkillsButton val="EXPRESS.JS" />
-          <SkillsButton val="MONGOOSE" />
+          <SkillsButton val="MONGODB" />          
       </div>
     </div>
   );
