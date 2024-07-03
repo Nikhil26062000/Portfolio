@@ -6,7 +6,7 @@ import TODO from "../Images/TODO.png";
 import GUESS from "../Images//GUESS.png";
 import CHAR2 from "../Images//CHAR2.png";
 import INSTA from "../Images/insta.png";
-
+import Whatsapp from "../Images/whatsapp2.0.png";
 
 const ProjectSection = () => {
   return (
@@ -19,8 +19,10 @@ const ProjectSection = () => {
           <div className="w-[220px] h-[2px] mb-6 mt-2 bg-white mx-auto rounded-lg"></div>
 
           <p className="text-center text-sm text-white sm:text-lg mt-6 tracking-wider max-sm:text-xs">
-           
-          I've created various projects using cutting-edge technology, showcased on my GitHub. Explore my repository for more. Experience the latest in web development and discover innovative applications waiting to be explored.
+            I've created various projects using cutting-edge technology,
+            showcased on my GitHub. Explore my repository for more. Experience
+            the latest in web development and discover innovative applications
+            waiting to be explored.
           </p>
 
           <div className="flex justify-center mt-4">
@@ -40,6 +42,14 @@ const ProjectSection = () => {
           desc="Bringing the essence of Instagram to life with every line of code."
           link1="https://drive.google.com/file/d/1UpomHs4WmEeqptsO22yALVgiBoGgk9O4/view?usp=sharing"
           link2="https://github.com/Nikhil26062000/Social-Media-App-Instagram"
+        />
+
+        <Card
+          img={Whatsapp}
+          name="Whatsapp web Clone"
+          desc="Chat Without Limits: Try Our Feature-Rich WhatsApp Clone!"
+          link1="https://github.com/Nikhil26062000/Whatsapp-Clone-v1.0"
+          link2="https://github.com/Nikhil26062000/Whatsapp-Clone-v1.0"
         />
 
         <Card
@@ -77,7 +87,6 @@ const ProjectSection = () => {
           link1="https://nikhil26062000.github.io/GrammarlyCharCountetr/"
           link2="https://github.com/Nikhil26062000/GrammarlyCharCountetr"
         />
-        
       </div>
     </div>
   );
